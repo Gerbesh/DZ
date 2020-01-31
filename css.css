@@ -1,0 +1,159 @@
+
+
+body {
+  background-image: url(images/background.png);\
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-attachment: fixed;
+
+}
+.video {
+  border: 3px solid#FBF3D1;
+  border-radius: 10px;
+  font-size: 1.8rem;
+  line-height: 1.618;
+  max-width: 38em;
+  margin: auto;
+  padding: 13px;
+  position: relative;
+  overflow: auto;
+  width: 45%;
+
+}
+
+img.up{
+  position: fixed;
+  bottom: 20px;
+  left: 40px;
+  z-index: 2000;
+}
+img.img1 {
+  border-radius: 15px;
+  float: right;
+  margin: 7px 7px 7px 0px;
+  zoom: 0.3;
+}
+
+img.img2 {
+  border-radius: 15px;
+  float: left;
+  margin: 7px 7px 7px 0px;
+  zoom: 0.3;
+}
+
+H1 {
+  text-align: center;
+}
+div.info {
+  border: 3px solid#FBF3D1;
+  border-radius: 10px;
+  font-size: 1.8rem;
+  line-height: 1.618;
+  max-width: 38em;
+  margin: auto;
+  color: #2F4F4F;
+  background-color: #F0FFF0;
+  padding: 13px;
+  position: relative;
+  overflow: auto;
+  width: 100%;
+}
+
+div.wiki {
+  border: 3px solid#FBF3D1;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  line-height: 1.618;
+  max-width: 62em;
+  margin: auto;
+  color: #2F4F4F;
+  background-color: #F0FFF0;
+  padding: 13px;
+  position: relative;
+  overflow: auto;
+  width: 100%;
+}
+
+div.menu {
+  border: 3px solid#FBF3D1;
+  border-radius: 10px;
+  font-size: 1.8rem;
+  line-height: 1.618;
+  max-width: 38em;
+  margin: auto;
+  color: #2F4F4F;
+  background-color: #F0FFF0;
+  padding: 13px;
+  position: relative;
+  overflow: auto;
+  width: 100%;
+}
+
+span.button {
+  border: 3px solid#FBF3D1;
+  border-radius: 10px;
+  margin: auto;
+  background-color: #F0F5D5;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+span.button:hover {
+  background-color: #C4DA57;
+  color: #6D57DA;
+}
+
+#top {
+  border: 3px solid#FBF3D1;
+  border-radius: 10px;
+  margin: auto;
+  background-color: #F0F5D5;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+.popup {
+	position: absolute;
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	display:none;
+	text-align:center;
+}
+
+.popup_bg {
+	background:rgba(0,0,0,0.4);
+	position:fixed;
+	z-index:1;
+	height:100%;
+	width:100%;
+}
+
+
+.popup_img {
+	position: fixed;
+	z-index:2;
+	max-height:94%;
+	max-width:94%;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.scrollup{
+    width:128px;
+    height:128px;
+    zoom: 0.6;
+    opacity:0.4;
+    position: fixed;
+    bottom: 20px;
+    left: 40px;
+    display:none;
+    text-indent:-9999px;
+    background-image: url(images/up.png);
+    z-index: 5;
+  }
