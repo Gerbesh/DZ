@@ -4,7 +4,7 @@ body {
   background-image: url(images/background.png);\
   margin-left: auto;
   margin-right: auto;
-  text-align: justify;
+  text-align: center;
   background-attachment: fixed;
 
 }
@@ -58,6 +58,8 @@ div.info {
   position: relative;
   overflow: auto;
   width: 100%;
+  text-align: justify;
+
 }
 
 div.wiki {
@@ -72,6 +74,7 @@ div.wiki {
   padding: 13px;
   position: relative;
   overflow: auto;
+  text-align: justify;
   width: 100%;
 }
 
@@ -90,6 +93,23 @@ div.menu {
   width: 100%;
 }
 
+.wikimenu {
+  border: 3px solid#FBF3D1;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  line-height: 1.618;
+  max-width: 62em;
+  margin: auto;
+  color: #2F4F4F;
+  background-color: #F0FFF0;
+  padding: 13px;
+  position: relative;
+  overflow: auto;
+  width: 100%;
+  text-align: center;
+
+}
+
 span.button {
   border: 3px solid#FBF3D1;
   border-radius: 10px;
@@ -97,7 +117,7 @@ span.button {
   background-color: #F0F5D5;
   padding-left: 10px;
   padding-right: 10px;
-
+  text-align:center;
 }
 span.button:hover {
   background-color: #C4DA57;
@@ -157,3 +177,6 @@ span.button:hover {
     background-image: url(images/up.png);
     z-index: 5;
   }
+ .menu1 {
+   text-align:center;
+ }
